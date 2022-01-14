@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      h1 {
+        color: aqua;
+      }
+
+      h1:hover {
+        color: lightskyblue;
+        background-color: lightyellow;
+        padding: 50px;
+        margin: 50px;
+        font-size: 50px;
+        font-weight: 700;
+      }
+
+      .middle-parson:focus {
+        color: mediumaquamarine;
+        font-weight: 700;
+      }
+
+      a:visited {
+        color: mediumaquamarine;
+      }
+
+      li:first-child {
+        color: chocolate;
+      }
+
+      li:last-child {
+        color: brown;
+        background-color: cadetblue;
+      }
+
+      li:nth-child(n) {
+        color: chartreuse;
+      }
+
+      li:nth-child(2n+1) {
+        color: chartreuse;
+      }
+
+      h3::before {
+        content: 'hello';
+      }
+
+      h3::after {
+        content: 'ol';
+        background-color: khaki;
+        font-size: 30px;
+      }
+
+      .ffff-fd::before {
+        content: 'ol';
+        background-color: khaki;
+        font-size: 30px;
+
+      }
+
+      .ffff-fd::after {
+        content: 'ol';
+        background-color: yellow;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input class="middle-parson" type="text">
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/"> google</a>
+    <a href="https://www.facebook.com/md.jahidhn"> facebook</a>
+    <a href="https://www.cnn.com/2022/01/07/entertainment/bon-jovi-2022-tour/index.html"> new </a>
+    <br>
+    <h3>middel sil-1</h3>
+    <h3>middel sil-2</h3>
+    <h3>middel sil-3</h3>
+    <h3>middel sil-4</h3>
+    <h3>middel sil-5</h3>
+    <h3>middel sil-6<ffff-fd /h3>
+        <br>
+        <h4>jio</h4>
+        <h4 class="ffff-fd">fio</h4>
+        <h4 class="ffff-fd">tio</h4>
+        <h4>zio</h4>
+        <h4>lio</h4>
+        <h4 class="ffff-fd">pio</h4>
+        <h4 class="ffff-fd">dio</h4>
+        <ul>
+          <li>Aliya</li>
+          <li>kaliy</li>
+          <li>Daliya</li>
+          <li>caliya</li>
+          <li>baliya</li>
+          <li>claya</li>
+        </ul>
+  </body>
+
+</html>
